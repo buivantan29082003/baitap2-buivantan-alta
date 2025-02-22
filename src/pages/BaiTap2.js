@@ -16,7 +16,7 @@ export default function Bai2() {
     const height = canvas.height;
     setInterval(() => {
       if (witdh.witdh > 900) {
-        witdh.w = 10;
+        witdh.witdh = 10;
         ctx.clearRect(0, 0, width, height);
         witdh.indexBg =
           witdh.indexBg + 1 < witdh.backgrounds.length ? witdh.indexBg + 1 : 0;
