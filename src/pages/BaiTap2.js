@@ -36,5 +36,10 @@ export default function Bai2() {
     }, 20);
   }, []);
 
-  return <canvas ref={canvasRef} width={1500} height={800} />;
+  return (
+    <>
+      <p id="bai2-id"></p>
+      <canvas ref={canvasRef} width={1500} height={800} />
+    </>
+  );
 }

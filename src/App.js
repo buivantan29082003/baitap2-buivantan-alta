@@ -6,7 +6,7 @@ import BaiTap2 from './pages/BaiTap2';
 function App() {
   return (
     <div className="App">
-      {/* <Bai1/> */}
+      <Bai1/>
       <BaiTap2/>
     </div>
   );
